@@ -50,22 +50,6 @@ export default makeStyles(theme => ({
       width: 250,
     },
   },
-  searchIcon: {
-    width: 36,
-    right: 0,
-    height: "100%",
-    position: "absolute",
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-    transition: theme.transitions.create("right"),
-    "&:hover": {
-      cursor: "pointer",
-    },
-  },
-  searchIconOpened: {
-    right: theme.spacing(1.25),
-  },
   inputRoot: {
     color: "inherit",
     width: "100%",
@@ -128,30 +112,6 @@ export default makeStyles(theme => ({
     "&:hover": {
       cursor: "pointer",
     },
-  },
-  messageNotification: {
-    height: "auto",
-    display: "flex",
-    alignItems: "center",
-    "&:hover, &:focus": {
-      backgroundColor: theme.palette.background.light,
-    },
-  },
-  messageNotificationSide: {
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "center",
-    marginRight: theme.spacing(2),
-  },
-  messageNotificationBodySide: {
-    alignItems: "flex-start",
-    marginRight: 0,
-  },
-  sendMessageButton: {
-    margin: theme.spacing(4),
-    marginTop: theme.spacing(2),
-    marginBottom: theme.spacing(2),
-    textTransform: "none",
   },
   sendButtonIcon: {
     marginLeft: theme.spacing(2),

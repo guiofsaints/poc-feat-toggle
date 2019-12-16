@@ -26,10 +26,6 @@ export default makeStyles(theme => ({
       display: "none",
     },
   },
-  logotypeImage: {
-    width: 165,
-    marginBottom: theme.spacing(4),
-  },
   logotypeText: {
     color: "white",
     fontWeight: 500,
@@ -65,20 +61,6 @@ export default makeStyles(theme => ({
     fontWeight: 500,
     textAlign: "center",
     marginTop: theme.spacing(2),
-  },
-  googleButton: {
-    marginTop: theme.spacing(6),
-    boxShadow: theme.customShadows.widget,
-    backgroundColor: "white",
-    width: "100%",
-    textTransform: "none",
-  },
-  googleButtonCreating: {
-    marginTop: 0,
-  },
-  googleIcon: {
-    width: 30,
-    marginRight: theme.spacing(2),
   },
   creatingButtonContainer: {
     marginTop: theme.spacing(2.5),
@@ -136,13 +118,5 @@ export default makeStyles(theme => ({
   },
   loginLoader: {
     marginLeft: theme.spacing(4),
-  },
-  copyright: {
-    marginTop: theme.spacing(4),
-    whiteSpace: "nowrap",
-    [theme.breakpoints.up("md")]: {
-      position: "absolute",
-      bottom: theme.spacing(2),
-    },
   },
 }));
